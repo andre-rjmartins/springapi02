@@ -9,6 +9,7 @@ public class TarefaPutDTO {
 	private Date dataInicio;
 	private Date dataFim;
 	private String descricao;
+	private String emailUsuario;
 
 	public Integer getIdTarefa() {
 		return idTarefa;
@@ -48,6 +49,14 @@ public class TarefaPutDTO {
 
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
+	}
+
+	public String getEmailUsuario() {
+		return emailUsuario;
+	}
+
+	public void setEmailUsuario(String emailUsuario) {
+		this.emailUsuario = emailUsuario;
 	}
 	
 }
